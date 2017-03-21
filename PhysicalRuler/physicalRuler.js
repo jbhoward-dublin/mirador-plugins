@@ -412,7 +412,7 @@
       options.pixelsPerMillimeter = 1 / (millimetersPerPhysicalUnit[service.physicalUnits] * service.physicalScale);
       jQuery.extend(true, this.osd, {
         documentRulerConfig: options
-      });
+      }); 
       this.osd.documentRuler(this.osd.documentRulerConfig);
       this.osd.rulerInstance.refresh();
       this.osd.rulerInstance.updateSize();
